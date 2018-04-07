@@ -16,3 +16,13 @@ conda env create -f environments.yml
 
 # Use TensorFlow with GPU
 conda env create -f environment-gpu.yml
+
+# COMMANDS
+
+1/  conda env create -f D:\Self_Driving_Car\How_to_simulate_a_self_driving_car-master\environments.yml 
+
+2/ activate car-behavioral-cloning
+
+3/ python D:\Self_Driving_Car\How_to_simulate_a_self_driving_car-master\model.py
+
+4/ python D:\Self_Driving_Car\How_to_simulate_a_self_driving_car-master\drive.py D:\Self_Driving_Car\How_to_simulate_a_self_driving_car-master\model.h5
