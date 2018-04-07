@@ -5,3 +5,14 @@ We used Keras to train a convolutional neural network on images from the car's c
 More you train the car more you will get good result.
 Files : 
 We're going to use Udacity's self driving car simulator as a testbed for training an autonomous car : https://github.com/udacity/self-driving-car-sim
+
+Dependencies
+You can install all dependencies by running one of the following commands
+
+You need a anaconda or miniconda to use the environment setting.
+
+# Use TensorFlow without GPU
+conda env create -f environments.yml 
+
+# Use TensorFlow with GPU
+conda env create -f environment-gpu.yml
